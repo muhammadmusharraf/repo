@@ -1,0 +1,65 @@
+.container{
+    background-color:rgb(224, 224, 224);
+    width: 500px;
+    margin-left:300px;
+    margin-top: 50px;
+    border-radius: 10px;
+padding-bottom: 10px;
+
+}
+h1{
+margin-left: 115px;
+padding-top:20px;
+}
+.input-bar{
+    border: none;
+    margin-left: 50px;
+    height: 30px;
+    width:250px;
+    border-radius: 5px;
+}
+.Add-btn{
+    background-color: rgb(105, 248, 92);
+    height: 32px;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: none;
+    width:60px
+    
+}
+li{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+.remove-btn{
+    background-color: rgb(247, 51, 51);
+    border: none;
+    border-radius: 5px;
+    margin-left:200px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.todo-item.Completed{
+text-decoration: line-through;
+opacity: 0.5;
+}
+.todo-item{
+    background-color: grey;
+    height: 30px;
+    margin-top: 5px;
+    display: flex;
+    margin-bottom: 5px;
+    margin-right: 130px;
+    border-radius: 5px;
+}
+.checkbox{
+    align-items: center;
+    display: flex;
+    margin-top: none;
+    overflow: hidden;
+    padding: none;
+    
+}
